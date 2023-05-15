@@ -1,0 +1,89 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin event-card.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:event-card.png
+
+#begin hardpixel.otf
+/copy:hardpixel.otf
+
+#begin hardpixel.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:hardpixel.spritefont
+
+#begin resource-card-frame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:resource-card-frame.png
+
+#begin resource-card.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:resource-card.png
+
+#begin Scripts/castle.lua
+/copy:Scripts/castle.lua
+
+#begin Scripts/common.lua
+/copy:Scripts/common.lua
+
+#begin Scripts/griffins.lua
+/copy:Scripts/griffins.lua
+
+#begin Scripts/healing.lua
+/copy:Scripts/healing.lua
+
+#begin Scripts/leadership.lua
+/copy:Scripts/leadership.lua
+
+#begin Scripts/main.lua
+/copy:Scripts/main.lua
+
+#begin Scripts/treasure.lua
+/copy:Scripts/treasure.lua
+
+#begin softpixel.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:softpixel.spritefont
+
